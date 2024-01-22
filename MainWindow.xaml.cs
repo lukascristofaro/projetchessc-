@@ -9,27 +9,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace chess;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
+namespace chess
 {
-    public MainWindow()
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
     }
-
-    private void CreateRoom_Click(object sender, RoutedEventArgs e)
-    {
-        // Charge la deuxième page lorsque le bouton est cliqué
-        Main.Content = new CreateRoomPage();
-    }
-
-    private void JoinRoom_Click(object sender, RoutedEventArgs e)
-    {
-        MessageBox.Show("Vous avez rejoint la salle !");
-    }
-    
 }

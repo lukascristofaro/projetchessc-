@@ -1,18 +1,12 @@
 ﻿<Window x:Class="chess.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Chat Application" Height="350" Width="525">
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:chess"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <!-- Création d'une salle -->
-        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
-            <TextBlock Text="Créer une salle" FontWeight="Bold" Margin="0,0,0,10"/>
-            <Button Content="Créer la salle" Click="CreateRoom_Click"/>
-        </StackPanel>
 
-        <!-- Rejoindre une salle -->
-        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
-            <TextBlock Text="Rejoindre une salle" FontWeight="Bold" Margin="0,0,0,10"/>
-            <Button Content="Rejoindre la salle" Click="JoinRoom_Click"/>
-        </StackPanel>
     </Grid>
 </Window>
