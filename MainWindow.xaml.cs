@@ -20,4 +20,16 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void CreateRoom_Click(object sender, RoutedEventArgs e)
+    {
+        // Charge la deuxième page lorsque le bouton est cliqué
+        Main.Content = new CreateRoomPage();
+    }
+
+    private void JoinRoom_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("Vous avez rejoint la salle !");
+    }
+    
 }
