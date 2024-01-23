@@ -24,5 +24,13 @@ namespace chess.MVVM.Views
         {
             InitializeComponent();
         }
+
+        public void CreateRoom_Click(object sender, RoutedEventArgs e) {
+            Console.WriteLine("createRoom");
+        }
+
+        public void JoinRoom_Click(object sender, RoutedEventArgs e) {
+            Console.WriteLine("joinRoom");
+        }
     }
 }
