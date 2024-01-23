@@ -20,5 +20,18 @@ namespace chess
         {
             InitializeComponent();
         }
+
+        private void HandleButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CreateRoom_Click(object sender, RoutedEventArgs e) {
+            Console.WriteLine("Create Room");
+        }
+
+        private void JoinRoom_Click(object sender, RoutedEventArgs e) {
+            Console.WriteLine("Join Room");
+        }
     }
 }
