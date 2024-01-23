@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\luluc\\.nuget\\packages\\": {}
+    "C:\\Users\\33659\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luluc\\OneDrive\\Documents\\Cours\\c#wpf\\chess\\projetchessc-\\chess.csproj",
+      "projectUniqueName": "C:\\Users\\33659\\projetchessc-\\chess.csproj",
       "projectName": "chess",
-      "projectPath": "C:\\Users\\luluc\\OneDrive\\Documents\\Cours\\c#wpf\\chess\\projetchessc-\\chess.csproj",
-      "packagesPath": "C:\\Users\\luluc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luluc\\OneDrive\\Documents\\Cours\\c#wpf\\chess\\projetchessc-\\obj\\",
+      "projectPath": "C:\\Users\\33659\\projetchessc-\\chess.csproj",
+      "packagesPath": "C:\\Users\\33659\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\33659\\projetchessc-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\luluc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\33659\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"

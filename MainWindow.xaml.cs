@@ -1,37 +1,30 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace chess
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainViewModel : Window
     {
-        public MainWindow()
+        public MainViewModel()
         {
             InitializeComponent();
         }
 
-        private void HandleButtonClick(object sender, RoutedEventArgs e)
+        private void CreateRoom_Click(object sender, RoutedEventArgs e)
         {
+            // Charger la nouvelle page (GameView)
+            contentFrame.Content = new Views.GameView();
 
+            // Masquer les boutons
+            buttonsGrid.Visibility = Visibility.Collapsed;
         }
 
-        private void CreateRoom_Click(object sender, RoutedEventArgs e) {
-            Console.WriteLine("Create Room");
-        }
+        private void JoinRoom_Click(object sender, RoutedEventArgs e)
+        {
+            // Charger la nouvelle page (GameView)
+            contentFrame.Content = new Views.GameView();
 
-        private void JoinRoom_Click(object sender, RoutedEventArgs e) {
-            Console.WriteLine("Join Room");
+            // Masquer les boutons
+            buttonsGrid.Visibility = Visibility.Collapsed;
         }
     }
 }
