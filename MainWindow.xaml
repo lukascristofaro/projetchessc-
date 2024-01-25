@@ -74,11 +74,11 @@
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal">
-                <c Content="Create Room" Style="{StaticResource CustomButtonStyle}" Click="Button_CreateRoom_Click" Margin="20, 30" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold">
+                <Button Content="Create Room" Style="{StaticResource CustomButtonStyle}" Click="Button_CreateRoom_Click" Margin="20, 30" Cursor="UpArrow" Background="#FF0C6D6D" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold">
                     <Button.Effect>
                         <DropShadowEffect/>
                     </Button.Effect>
-                </c>
+                </Button>
                 <Button Content="Join Room" Style="{StaticResource CustomButtonStyle}" Click="Button_JoinRoom_Click" Margin="20, 30" Cursor="UpArrow" Background="#FF0C6D6D" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold">
                     <Button.Effect>
                         <DropShadowEffect/>
