@@ -5,8 +5,88 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:chess"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Homepage" Height="450" Width="800" Background="#109888">
+    <Window.Resources>
+        <Style x:Key="CustomButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#0C6D6D" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush" Value="#0C6D6D"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
+                            <Grid Cursor="Arrow">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="5" ShadowDepth="2" Opacity="0.7" Color="#33000000"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
+
+        <Style x:Key="PlaceholderTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border BorderBrush="Black" BorderThickness="1" CornerRadius="5">
+                                <ScrollViewer x:Name="PART_ContentHost"/>
+                            </Border>
+                            <TextBlock x:Name="PlaceholderText" Text="Type your code here" Foreground="Black" FontSize="12" Visibility="Collapsed"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="False">
+                                <Setter TargetName="PlaceholderText" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                            <Trigger Property="Text" Value="{x:Null}">
+                                <Setter TargetName="PlaceholderText" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                            <Trigger Property="Text" Value="">
+                                <Setter TargetName="PlaceholderText" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <c Content="Create Room" Style="{StaticResource CustomButtonStyle}" Click="Button_CreateRoom_Click" Margin="20, 30" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </c>
+                <Button Content="Join Room" Style="{StaticResource CustomButtonStyle}" Click="Button_JoinRoom_Click" Margin="20, 30" Cursor="UpArrow" Background="#FF0C6D6D" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+            <StackPanel/>
+            <Button Content="Record Play" Style="{StaticResource CustomButtonStyle}" Width="200" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Verdana" FontWeight="Bold"/>
+        </StackPanel>
     </Grid>
 </Window>
