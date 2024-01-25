@@ -26,7 +26,9 @@ C:\Users\33659\projetchessc-\bin\Debug\net8.0-windows\chess.runtimeconfig.json
 C:\Users\33659\projetchessc-\bin\Debug\net8.0-windows\chess.dll
 C:\Users\33659\projetchessc-\bin\Debug\net8.0-windows\chess.pdb
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.baml
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess_MarkupCompile.cache
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.g.resources
@@ -40,5 +42,3 @@ C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\refint\chess.dll
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.pdb
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.genruntimeconfig.cache
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\ref\chess.dll
-C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.baml
-C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs

@@ -7,5 +7,6 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <TextBlock Text="Page du jeu" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image Source="\assets\black_bishop.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </UserControl>
