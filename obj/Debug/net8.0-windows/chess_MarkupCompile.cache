@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+﻿chess
+
+
+winexe
+C#
+.cs
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\
+chess_gqvb3enh_wpftmp
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\Users\alexisrouches\Source\Repos\projetchessc-\App.xaml
+11407045341
+
+690055084
+396-589789518
+MainWindow.xaml;
+
+True
+
+=======
 ﻿chess
 
 
@@ -18,3 +40,4 @@ MainWindow.xaml;MVVM\Views\GameView.xaml;
 
 False
 
+>>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923

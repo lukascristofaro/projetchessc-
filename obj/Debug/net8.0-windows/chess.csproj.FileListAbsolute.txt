@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+C:\Users\alexisrouches\Source\Repos\projetchessc-\bin\Debug\net8.0-windows\chess.exe
+C:\Users\alexisrouches\Source\Repos\projetchessc-\bin\Debug\net8.0-windows\chess.deps.json
+C:\Users\alexisrouches\Source\Repos\projetchessc-\bin\Debug\net8.0-windows\chess.runtimeconfig.json
+C:\Users\alexisrouches\Source\Repos\projetchessc-\bin\Debug\net8.0-windows\chess.dll
+C:\Users\alexisrouches\Source\Repos\projetchessc-\bin\Debug\net8.0-windows\chess.pdb
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess_MarkupCompile.cache
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess_MarkupCompile.lref
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.g.resources
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.AssemblyInfoInputs.cache
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.AssemblyInfo.cs
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.csproj.CoreCompileInputs.cache
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.sourcelink.json
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.dll
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\refint\chess.dll
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.pdb
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\chess.genruntimeconfig.cache
+C:\Users\alexisrouches\Source\Repos\projetchessc-\obj\Debug\net8.0-windows\ref\chess.dll
+=======
 C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8.0-windows\chess_MarkupCompile.cache
@@ -40,5 +63,9 @@ C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.genruntimeconfig.cac
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\ref\chess.dll
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.baml
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs
+<<<<<<< HEAD
 C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.baml
 C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs
+=======
+>>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923
+>>>>>>> 2893af9b8ca5cb5360ce4c1b9ebcc5389ad6a436
