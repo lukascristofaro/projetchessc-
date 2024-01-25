@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rVGOhy3tPEcF6VO4e1n7EfeWZEfPU6ubwRoDkm9PZKv2qjDBYpbtbVZ13rVgFTlFvrciN+eBAnlvNWCKZ7ijmg==",
+  "dgSpecHash": "3etyxPCYXEbLF6k4Wuxd0B6F6oFNdELl5iBpKUJdQDth2qSUh5yIbd8ln01LTSyEKGe4f/+Jouoje+6TXOE5Jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\chess.csproj",
+  "projectFilePath": "C:\\Users\\alexisrouches\\source\\test\\chess.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }

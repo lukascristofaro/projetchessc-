@@ -69,3 +69,11 @@ C:\Users\luluc\OneDrive\Documents\Cours\c#wpf\chess\projetchessc-\obj\Debug\net8
 >>>>>>> 2893af9b8ca5cb5360ce4c1b9ebcc5389ad6a436
 C:\Users\alexisrouches\source\repos\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.baml
 C:\Users\alexisrouches\source\repos\projetchessc-\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\MVVM\Views\GameView.g.cs
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\chess_MarkupCompile.cache
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\chess_MarkupCompile.lref
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\chess.dll
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\refint\chess.dll
+C:\Users\alexisrouches\source\test\obj\Debug\net8.0-windows\chess.pdb
