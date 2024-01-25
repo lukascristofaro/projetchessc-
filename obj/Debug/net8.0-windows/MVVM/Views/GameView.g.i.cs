@@ -30,6 +30,7 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
+using chess;
 
 
 namespace chess.Views {
@@ -52,7 +53,7 @@ namespace chess.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/chess;V1.0.0.0;component/mvvm/views/gameview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/chess;component/mvvm/views/gameview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\Views\GameView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

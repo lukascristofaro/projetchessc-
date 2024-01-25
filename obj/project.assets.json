@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "version": 3,
   "targets": {
@@ -14,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexisrouches\\Source\\Repos\\projetchessc-\\chess.csproj",
+      "projectUniqueName": "C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\chess.csproj",
       "projectName": "chess",
-      "projectPath": "C:\\Users\\alexisrouches\\Source\\Repos\\projetchessc-\\chess.csproj",
+      "projectPath": "C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\chess.csproj",
       "packagesPath": "C:\\Users\\alexisrouches\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexisrouches\\Source\\Repos\\projetchessc-\\obj\\",
+      "outputPath": "C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexisrouches\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,75 +67,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
-=======
-{
-  "version": 3,
-  "targets": {
-    "net8.0-windows7.0": {}
   },
-  "libraries": {},
-  "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
-  },
-  "packageFolders": {
-    "C:\\Users\\33659\\.nuget\\packages\\": {}
-  },
-  "project": {
-    "version": "1.0.0",
-    "restore": {
-      "projectUniqueName": "C:\\Users\\33659\\projetchessc-\\chess.csproj",
-      "projectName": "chess",
-      "projectPath": "C:\\Users\\33659\\projetchessc-\\chess.csproj",
-      "packagesPath": "C:\\Users\\33659\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33659\\projetchessc-\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\33659\\AppData\\Roaming\\NuGet\\NuGet.Config"
-      ],
-      "originalTargetFrameworks": [
-        "net8.0-windows"
-      ],
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
-      "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
-          "projectReferences": {}
-        }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
-      }
-    },
-    "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WPF": {
-            "privateAssets": "none"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
-      }
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
     }
-  }
->>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923
+  ]
 }
