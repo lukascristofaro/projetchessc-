@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿chess
 
 
@@ -18,3 +19,25 @@ MainWindow.xaml;
 
 True
 
+=======
+﻿chess
+
+
+winexe
+C#
+.cs
+C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\
+chess
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\33659\projetchessc-\App.xaml
+2-579406616
+
+8286324164
+198-294894759
+MainWindow.xaml;MVVM\Views\GameView.xaml;
+
+False
+
+>>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923

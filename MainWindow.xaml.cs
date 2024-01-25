@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -67,4 +68,35 @@ namespace chess
 
         }
     }
+=======
+﻿using System.Windows;
+
+namespace chess
+{
+    public partial class MainViewModel : Window
+    {
+        public MainViewModel()
+        {
+            InitializeComponent();
+        }
+
+        private void CreateRoom_Click(object sender, RoutedEventArgs e)
+        {
+            // Charger la nouvelle page (GameView)
+            contentFrame.Content = new Views.GameView();
+
+            // Masquer les boutons
+            buttonsGrid.Visibility = Visibility.Collapsed;
+        }
+
+        private void JoinRoom_Click(object sender, RoutedEventArgs e)
+        {
+            // Charger la nouvelle page (GameView)
+            contentFrame.Content = new Views.GameView();
+
+            // Masquer les boutons
+            buttonsGrid.Visibility = Visibility.Collapsed;
+        }
+    }
+>>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923
 }

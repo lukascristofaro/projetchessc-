@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "rVGOhy3tPEcF6VO4e1n7EfeWZEfPU6ubwRoDkm9PZKv2qjDBYpbtbVZ13rVgFTlFvrciN+eBAnlvNWCKZ7ijmg==",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\alexisrouches\\source\\repos\\projetchessc-\\chess.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "5q4IVyXqPtEsiB9ItU7Q2fj8BwgdmwHoDQkfptM31h2wJKFkrEl05hWD7Jw+2l83ZfqJrHRFknMh5ojMTs+UXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\33659\\projetchessc-\\chess.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> e4642a86aedb02d04b494d84945ea61e9c80a923
 }
