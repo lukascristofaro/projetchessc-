@@ -42,3 +42,6 @@ C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\refint\chess.dll
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.pdb
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.genruntimeconfig.cache
 C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\ref\chess.dll
+C:\Users\33659\projetchessc-\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.csproj.AssemblyReference.cache
+C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\chess.csproj.CopyComplete
