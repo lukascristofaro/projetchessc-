@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\33659\projetchessc-\obj\Debug\net8.0-windows\
+C:\Users\alexisrouches\source\repos\projetchessc-\obj\Debug\net8.0-windows\
 chess
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\33659\projetchessc-\App.xaml
-2-579406616
+C:\Users\alexisrouches\source\repos\projetchessc-\App.xaml
+4945922460
 
-8286324164
+111740661973
 198-294894759
-MainWindow.xaml;MVVM\Views\GameView.xaml;
+MainWindow.xaml;MVVM\Views\GameMenu.xaml;MVVM\Views\GameView.xaml;MVVM\Views\recordplay.xaml;
 
-False
+True
 
